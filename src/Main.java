@@ -68,7 +68,9 @@ public class Main {
         // Task 4
         System.out.println("Task 4");
         for (int i = 0; i < arr1.length; i++) {
-            arr1[i] += 1;
+            if (arr1[i] % 2 == 0) {
+                arr1[i] += 1;
+            }
         }
         System.out.println(Arrays.toString(arr1));
     }
