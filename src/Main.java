@@ -4,7 +4,10 @@ public class Main {
     public static void main(String[] args) {
         // Task 1
         System.out.println("Task 1");
-        int[] arr1 = new int[]{1,2,3};
+        int[] arr1 = new int[3];
+        arr1[0] = 1;
+        arr1[1] = 2;
+        arr1[2] = 3;
         double[] arr2 = {1.57, 7.654, 9.986};
         boolean[] arr3 = new boolean[]{true,false,true};
         System.out.println();
@@ -68,7 +71,7 @@ public class Main {
         // Task 4
         System.out.println("Task 4");
         for (int i = 0; i < arr1.length; i++) {
-            if (arr1[i] % 2 == 0) {
+            if (arr1[i] % 2 != 0) {
                 arr1[i] += 1;
             }
         }
